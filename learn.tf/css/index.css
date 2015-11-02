@@ -10,14 +10,16 @@ html, body {
 
 body{
 	background-image: url(img/background.png);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
 	color: white;
 }
 
 nav{
-	background-color: black;
+	background-color: rgb(46,42,39);
 	text-align: center;
-	border-top: 2px orange solid;
-	border-bottom: 2px orange solid;
+	border-top: 2px rgb(229,150,75) solid;
+	border-bottom: 2px rgb(229,150,75) solid;
 	padding: 5px;
 }
 
@@ -26,32 +28,29 @@ nav > ul > li{
 }
 
 nav > ul > li > ul{
-	background-color: black;
+	background-color: rgb(46,42,39);
 	list-style: none;
 	position: absolute;
 	display: none;
 	padding: 5px;
-	border-bottom: 2px orange solid;
+	border-bottom: 2px rgb(229,150,75) solid;
 }
 a{
 	text-decoration:none;
 	width: 70%;
 	padding: 15px;
-	color: white;
+	color: rgb(137,124,103);
 }
 nav > ul > li:hover{
-	background-color: white;
+	background-color: rgb(92,84,78);
 }
 
 nav > ul > li > ul >li:hover{
-	background-color: white;
+	background-color: rgb(92,84,78);
 	}
 
 nav > ul > li:hover > ul{
 	display: block;
-	}
-	
-a:hover{
-	color: black;
+	background-color: rgb
 }
 
