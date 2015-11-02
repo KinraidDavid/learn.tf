@@ -15,42 +15,44 @@ body{
 	color: white;
 }
 
-nav{
-	background-color: rgb(46,42,39);
+a{
+	text-decoration:none;
+	display: inline-block;
+	padding: 20px;
+	color: rgb(137,124,103);
+}
+
+nav > ul{
 	text-align: center;
-	border-top: 2px rgb(229,150,75) solid;
-	border-bottom: 2px rgb(229,150,75) solid;
 	padding: 5px;
 }
 
 nav > ul > li{
+	background-color: rgba(46,42,39,.45);
+	border-top: 2px rgb(229,150,75) solid;
+	border-bottom: 2px rgb(229,150,75) solid;
 	display:inline-block;
+	text-align: center;
 }
 
 nav > ul > li > ul{
-	background-color: rgb(46,42,39);
+	background-color: rgba(46,42,39,.45);
 	list-style: none;
-	position: absolute;
+	padding: 0;
 	display: none;
-	padding: 5px;
+	position: absolute;
 	border-bottom: 2px rgb(229,150,75) solid;
 }
-a{
-	text-decoration:none;
-	width: 70%;
-	padding: 15px;
-	color: rgb(137,124,103);
-}
+
 nav > ul > li:hover{
-	background-color: rgb(92,84,78);
+	background-color: rgba(92,84,78,0.45);
 }
 
 nav > ul > li > ul >li:hover{
-	background-color: rgb(92,84,78);
+	background-color: rgba(92,84,78,.45);
 	}
 
 nav > ul > li:hover > ul{
 	display: block;
-	background-color: rgb
 }
 
