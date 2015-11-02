@@ -1,4 +1,5 @@
-
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web);
+@import url(https://fonts.googleapis.com/css?family=Arimo);
 
 *{box-sizing:border-box;}
 
@@ -9,6 +10,7 @@ html, body {
 
 
 body{
+	font-family: 'Arimo';
 	background-image: url(img/background.png);
 	background-attachment: fixed;
 	background-repeat: no-repeat;
@@ -23,6 +25,7 @@ a{
 }
 
 nav > ul{
+	font-family: 'Titillium Web';
 	border-top: 2px rgb(229,150,75) solid;
 	border-bottom: 2px rgb(229,150,75) solid;
 	background-color: rgba(46,42,39,.45);
