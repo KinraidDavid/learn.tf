@@ -1,0 +1,51 @@
+
+
+*{box-sizing:border-box;}
+
+body{
+	background-image: url(img/background.png);
+	color: white;
+}
+
+nav{
+	background-color: black;
+	text-align: center;
+	border-top: 2px orange solid;
+	border-bottom: 2px orange solid;
+	padding: 5px;
+}
+
+nav > ul > li{
+	display:inline-block;
+}
+
+nav > ul > li > ul{
+	background-color: black;
+	list-style: none;
+	position: absolute;
+	display: none;
+	padding: 5px;
+	border-bottom: 2px orange solid;
+}
+a{
+	text-decoration:none;
+	width: 70%;
+	padding: 15px;
+	color: white;
+}
+nav > ul > li:hover{
+	background-color: white;
+}
+
+nav > ul > li > ul >li:hover{
+	background-color: white;
+	}
+
+nav > ul > li:hover > ul{
+	display: block;
+	}
+	
+a:hover{
+	color: black;
+}
+
