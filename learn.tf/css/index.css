@@ -23,14 +23,14 @@ a{
 }
 
 nav > ul{
+	border-top: 2px rgb(229,150,75) solid;
+	border-bottom: 2px rgb(229,150,75) solid;
+	background-color: rgba(46,42,39,.45);
 	text-align: center;
 	padding: 5px;
 }
 
 nav > ul > li{
-	background-color: rgba(46,42,39,.45);
-	border-top: 2px rgb(229,150,75) solid;
-	border-bottom: 2px rgb(229,150,75) solid;
 	display:inline-block;
 	text-align: center;
 }
