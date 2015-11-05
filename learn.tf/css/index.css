@@ -72,3 +72,6 @@ nav > ul > li:hover > ul{
 	background-color: rgba(46,42,39,.25);
 }
 
+form{
+	margin-left: 10px;
+}
